@@ -1,0 +1,95 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px auto;
+   text-align: center;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration:none;
+}
+
+h1 {
+
+  color: darkgrey;
+  margin-bottom: 170px;
+  position:relative;
+
+
+}
+
+div {
+  border-bottom:1px dashed grey;
+  width: 500px;
+  position:relative;
+
+  text-align: center;
+  margin: 0px auto;
+   text-align: center;
+  margin-bottom: 26px;
+  
+}
+
+.author {
+ text-align:left;
+
+
+
+
+
+}
+
+.date {
+ text-align:left;
+
+
+
+
+
+}
+
+.edit {
+margin-left: 490px;
+color: #DDD;
+
+
+}
+
+.edit a {
+color: #DDD;
+}
+ .content {
+ color:red;
+ border: 0px;
+ }
+.content::first-letter {
+      text-transform: capitalize;
+      color:black;
+      font-size: 20px;
+
+
+}
+
+
+.by {
+border: 0px;
+}
+
+a h2 {
+text-decoration: none;
+
+}
+h2 {
+
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    color:lightgray;
+    font-weight: 200;
+    font-size: 46px;
+
+
+
+}

@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    h1.
+        Johannes notes
+    ul
+      -  each user, i in posts
+          span.edit
+            a(href="edit")
+             |+ 
+          div.blogpost
+                a(href="#{user.title}")
+                 h2=user.title
+                div.content=user.content
+                      
+                    p
+                    p
+                    b
+                div.by  
+                  |Posted by  
+                  span.author
+                    a(href="#{user.title}")= user.author
+                  | 
+                  span.date
+                    span=user.date
+                     
+            
